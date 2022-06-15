@@ -37,7 +37,7 @@ class Block:
     def has_item(self):
         """
         Check if item is placed in this block.
-        @return: True if it contains to items. (boolean)
+        @return: True if it contains the items otherwise false. (boolean)
         """
         return len(self.item) > 0
 
